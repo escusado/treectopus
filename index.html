@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Treectopus</title>
+
+  <script src="./pixi.dev.js"></script>
+  <script src="./chroma.min.js"></script>
+  <script src="./Treectopus.js"></script>
+
+  <style>
+
+    html,
+    body{
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #000000;
+    }
+  </style>
+
+  <script>
+    if (document.readyState != 'loading'){
+        load();
+    } else {
+        document.addEventListener('DOMContentLoaded', load);
+    }
+
+    function load(){
+      window.app = new Treectopus();
+    };
+
+  </script>
+
+</head>
+<body>
+
+
+
+</body>
+</html>
